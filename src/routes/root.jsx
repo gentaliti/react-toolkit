@@ -81,7 +81,6 @@ export default function Root() {
     const location = useLocation();
     const currentPath = location.pathname;
 
-    console.log(currentPath);
 
     const firstNav = <li>
         <Link to='/' className={currentPath === '/' ? 'active' : ''}>
