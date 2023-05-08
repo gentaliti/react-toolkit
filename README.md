@@ -8,6 +8,8 @@ This library was created for personal use.
 
 ## Docs Dashboard UI
 
+You can find the docs dashboard in this url: https://gentaliti.github.io/react-toolkit/
+
 ![img.png](img.png)
 
 ## Installation
