@@ -1,0 +1,63 @@
+@import "variables";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: $text-base-color;
+  overflow-x: hidden;
+}
+
+
+.content {
+  margin-top: -4rem;
+  border-radius: 2rem;
+  box-shadow: 0 0 36px rgba(0, 0, 0, .1);
+  min-height: 80rem;
+  background-color: #ffffff;
+  padding: 1rem 4rem;
+}
+
+.container {
+  max-width: 128rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+
+
+.grid {
+  display: grid;
+  column-gap: 6.4rem;
+  gap: 9.6rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.grid--center-v {
+  align-items: center;
+}
