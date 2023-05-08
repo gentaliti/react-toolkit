@@ -6,6 +6,10 @@
 Atomica UI is a personal React UI library that provides a set of reusable components for building user interfaces. 
 This library was created for personal use.
 
+## Docs Dashboard UI
+
+![img.png](img.png)
+
 ## Installation
 
 ## Usage
