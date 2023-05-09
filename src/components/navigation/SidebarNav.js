@@ -37,21 +37,6 @@ export default function SidebarNav({onCollapse, className, firstNavPageList, sec
                     <ul className="navigation-page-list">{secondNavPageList}</ul>
                 </nav>
             </div>
-
-            <div className="creator-info">
-                <div className="nav-info-box">
-                    <span>created by</span>
-                    <h3>Gent Aliti</h3>
-                    <div className="social-icons">
-                        <SocialIcon className="social-icon"
-                                    style={{height: 20, width: 20}}
-                                    url="https://linkedin.com/in/gentaliti"/>
-                        <SocialIcon className="social-icon"
-                                    style={{height: 20, width: 20}}
-                                    url="https://github.com/gentaliti"/>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>;
 }

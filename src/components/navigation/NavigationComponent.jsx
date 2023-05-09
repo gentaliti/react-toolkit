@@ -2,6 +2,7 @@ import SidebarNav from "./SidebarNav";
 import NavOutlet from "./NavOutlet";
 import './Navigation.scss';
 import {useEffect, useState} from "react";
+import Footer from "../footer/Footer";
 
 export default function NavigationComponent({outlet, firstNavPageList, secondNavPageList}) {
 
@@ -26,6 +27,10 @@ export default function NavigationComponent({outlet, firstNavPageList, secondNav
 
         <NavOutlet className={isOpen ? 'open' : ''}>
             {outlet}
+
+
+            <Footer />
         </NavOutlet>
+
     </div>
 }

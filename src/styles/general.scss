@@ -35,7 +35,6 @@ body {
 }
 
 
-
 .grid {
   display: grid;
   column-gap: 6.4rem;
@@ -62,9 +61,25 @@ body {
   align-items: center;
 }
 
+.flex {
+  display: flex;
+}
+
 .flex-v {
   display: flex;
   flex-direction: column;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-content {
+  justify-content: center;
+}
+
+.gap-8 {
+  gap: 0.8rem;
 }
 
 .gap-18 {

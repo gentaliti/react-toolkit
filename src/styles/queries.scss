@@ -27,10 +27,6 @@
     /* 8px / 16px = 0.5 = 50% */
     font-size: 50%;
   }
-
-  .creator-info {
-    display: none !important;
-  }
 }
 
 /**************************/
@@ -46,6 +42,7 @@
     .sidebar-layout {
       padding-bottom: 0;
     }
+
     &.open {
       overflow-y: scroll !important;
 

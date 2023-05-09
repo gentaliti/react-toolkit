@@ -8,7 +8,6 @@ export default function Root() {
     const location = useLocation();
     const currentPath = location.pathname;
 
-
     const firstNav = <li>
         <Link to='/' className={currentPath === '/' ? 'active' : ''}>
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}
