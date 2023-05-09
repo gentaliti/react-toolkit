@@ -25,7 +25,7 @@ export default function DropdownPage() {
     }];
 
     return <div>
-        <PageHeading title="Dropdowns" breadcrumbs={breadcrumbs}/>
+        <PageHeading title="Dropdown" breadcrumbs={breadcrumbs}/>
 
         <div className="content">
             <div className="container flex-v gap-24">

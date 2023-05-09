@@ -1,0 +1,39 @@
+@import "../../styles/variables";
+
+.table {
+  table-layout: auto;
+  border-spacing: 0.5rem 0.5rem;
+
+  font-size: 1.8rem;
+
+  .data {
+    padding: 1rem;
+  }
+
+  .border-b-2 {
+    border-bottom-width: 2px;
+  }
+
+  .header-cell {
+    display: flex;
+    align-items: center;
+  }
+
+  th, td {
+    padding: 2rem;
+    text-align: center;
+  }
+
+  thead {
+    background-color: $color-grey--light;
+    border: none
+  }
+}
+
+.sortable-table {
+  .icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+  }
+}
