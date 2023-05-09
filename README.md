@@ -21,14 +21,12 @@ You can find the docs dashboard in this url: https://gentaliti.github.io/react-t
 Atomica UI provides a range of customizable components, including:
 
 - Button
-- Input
-- Checkbox
-- Radio
-- Select
+- Accordion
+- Dropdown
 - Modal
-- Alert
-- Tooltip
-- and more
+- Table
+- Pagination
+- More components coming soon
 
 For detailed documentation on each component, please see the official [Atomica UI documentation](https://gentaliti.github.io/react-toolkit/).
 
