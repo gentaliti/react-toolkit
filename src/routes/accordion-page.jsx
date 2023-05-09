@@ -1,4 +1,4 @@
-import PageHeading from "../components/PageHeading";
+import PageHeading from "../components/heading/PageHeading";
 import {Link} from "react-router-dom";
 
 export default function AccordionPage() {
