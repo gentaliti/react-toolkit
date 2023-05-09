@@ -1,16 +1,16 @@
 import PageHeading from "../components/PageHeading";
 import {Link} from "react-router-dom";
 
-export default function ButtonsPage() {
+export default function ModalPage() {
 
     const breadcrumbs = [
         <Link to={'/'}>Components</Link>,
-        <Link to={'/buttons'}> Buttons</Link>
+        <Link to={'/modal'}>Modal</Link>
     ];
 
     return <div>
 
-        <PageHeading title="Buttons" breadcrumbs={breadcrumbs}/>
+        <PageHeading title="Modal" breadcrumbs={breadcrumbs}/>
 
         <div className="content">
             Content
