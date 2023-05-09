@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/react-toolkit/static/css/main.a5c1fc3d.css",
-    "main.js": "/react-toolkit/static/js/main.d85994e4.js",
+    "main.css": "/react-toolkit/static/css/main.f3bf9024.css",
+    "main.js": "/react-toolkit/static/js/main.010990a7.js",
     "static/media/atomica-svg.svg": "/react-toolkit/static/media/atomica-svg.05d7bf397eee0b467db54772852bb869.svg",
     "index.html": "/react-toolkit/index.html",
-    "main.a5c1fc3d.css.map": "/react-toolkit/static/css/main.a5c1fc3d.css.map",
-    "main.d85994e4.js.map": "/react-toolkit/static/js/main.d85994e4.js.map"
+    "main.f3bf9024.css.map": "/react-toolkit/static/css/main.f3bf9024.css.map",
+    "main.010990a7.js.map": "/react-toolkit/static/js/main.010990a7.js.map"
   },
   "entrypoints": [
-    "static/css/main.a5c1fc3d.css",
-    "static/js/main.d85994e4.js"
+    "static/css/main.f3bf9024.css",
+    "static/js/main.010990a7.js"
   ]
 }
