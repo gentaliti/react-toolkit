@@ -93,3 +93,23 @@ body {
 .cursor-pointer {
   cursor: pointer;
 }
+
+.absolute {
+  position: absolute;
+}
+
+.inset-0 {
+  inset: 0;
+}
+
+.inset-40 {
+  inset: 10rem;
+}
+
+.bg-grey {
+  background-color: rgba(197, 219, 236, 0.3);
+}
+
+.bg-white {
+  background-color: #fff;
+}
