@@ -55,7 +55,7 @@ export default function TablePage() {
     ];
 
     return <div>
-        <PageHeading title="Modal" breadcrumbs={breadcrumbs}/>
+        <PageHeading title="Table" breadcrumbs={breadcrumbs}/>
 
         <div className="content">
             <div className="container flex-v gap-24">
