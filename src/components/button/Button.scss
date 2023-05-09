@@ -46,25 +46,25 @@
 .btn--secondary--outline {
   background-color: #ffffff;
   border: 2px solid $color--secondary;
-  color: $color--primary;
+  color: $color--secondary;
 }
 
 .btn--success--outline {
   background-color: #ffffff;
   border: 2px solid $color--success;
-  color: $color--primary;
+  color: $color--success;
 }
 
 .btn--warning--outline {
   background-color: #ffffff;
   border: 2px solid $color--warning;
-  color: $color--primary;
+  color:  $color--warning;
 }
 
 .btn--danger--outline {
   background-color: #ffffff;
   border: 2px solid $color--danger;
-  color: $color--primary;
+  color: $color--danger;
 }
 
 .btn {
