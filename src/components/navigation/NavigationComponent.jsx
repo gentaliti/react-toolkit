@@ -1,6 +1,5 @@
 import SidebarNav from "./SidebarNav";
 import NavOutlet from "./NavOutlet";
-import {Outlet} from "react-router-dom";
 import './Navigation.scss';
 import {useEffect, useState} from "react";
 
@@ -15,11 +14,9 @@ export default function NavigationComponent({outlet, firstNavPageList, secondNav
         }
     }, []);
 
-
     const onCollapse = () => {
         setIsOpen(!isOpen);
     }
-
 
     return <div>
         <SidebarNav
@@ -28,7 +25,7 @@ export default function NavigationComponent({outlet, firstNavPageList, secondNav
             onCollapse={onCollapse} className={isOpen ? 'open' : ''}/>
 
         <NavOutlet className={isOpen ? 'open' : ''}>
-            <Outlet/>
+            {outlet}
         </NavOutlet>
     </div>
 }

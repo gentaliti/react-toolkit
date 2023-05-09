@@ -3,11 +3,11 @@ import './PageHeading.scss'
 export default function PageHeading({title, breadcrumbs}) {
     const breadcrumbsElement = breadcrumbs.map((breadcrumb, index, row) => {
         if (index + 1 === row.length) {
-            return <li index={index}>
+            return <li key={index}>
                 {breadcrumb}
             </li>
         }
-        return <li index={index}>
+        return <li key={index}>
             {breadcrumb} <span>></span>
         </li>
     });
