@@ -1,0 +1,68 @@
+@import "../../styles/variables";
+
+.btn,
+.btn:link,
+.btn:visited {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+
+  display: inline-block;
+  padding: 1.2rem 3.2rem;
+  border: none;
+  border-radius: 6px;
+
+  transition: all 0.3s;
+}
+
+.btn--primary {
+  background-color: $color--primary;
+}
+
+.btn--secondary {
+  background-color: $color--secondary;
+}
+
+.btn--success {
+  background-color: $color--success;
+}
+
+.btn--warning {
+  background-color: $color--warning;
+}
+
+.btn--danger {
+  background-color: $color--danger;
+}
+
+.btn--primary--outline {
+  background-color: #ffffff;
+  border: 2px solid $color--primary;
+  color: $color--primary;
+}
+
+.btn--secondary--outline {
+  background-color: #ffffff;
+  border: 2px solid $color--secondary;
+  color: $color--primary;
+}
+
+.btn--success--outline {
+  background-color: #ffffff;
+  border: 2px solid $color--success;
+  color: $color--primary;
+}
+
+.btn--warning--outline {
+  background-color: #ffffff;
+  border: 2px solid $color--warning;
+  color: $color--primary;
+}
+
+.btn--danger--outline {
+  background-color: #ffffff;
+  border: 2px solid $color--danger;
+  color: $color--primary;
+}
