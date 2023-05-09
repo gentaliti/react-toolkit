@@ -66,3 +66,14 @@
   border: 2px solid $color--danger;
   color: $color--primary;
 }
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  svg {
+    width: 24px;
+    height: 24px;
+  }
+}
