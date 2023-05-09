@@ -53,11 +53,11 @@
   }
 
   .open {
-    border-top: 4px solid $color--primary;
+    border-top: 4px solid $color--secondary;
   }
 
   .open .number, .open .text {
-    color: $color--primary;
+    color: $color--secondary;
   }
 
   .open .hidden-box {
