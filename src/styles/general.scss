@@ -22,7 +22,7 @@ body {
 .content {
   margin-top: -4rem;
   border-radius: 2rem;
-  box-shadow: 0 0 36px rgba(0, 0, 0, .1);
+  box-shadow: 0 -25px 36px rgba(0, 0, 0, 0.0);
   min-height: 80rem;
   background-color: #ffffff;
   padding: 1rem 4rem;
@@ -60,4 +60,17 @@ body {
 
 .grid--center-v {
   align-items: center;
+}
+
+.flex-v {
+  display: flex;
+  flex-direction: column;
+}
+
+.gap-18 {
+  gap: 1.8rem;
+}
+
+.gap-24 {
+  gap: 2.4rem;
 }

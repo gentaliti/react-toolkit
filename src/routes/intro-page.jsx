@@ -15,9 +15,9 @@ export default function IntroPage() {
 
 
         <div className="content">
-            <div className="container">
+            <div className="container flex-v gap-24">
 
-                <section className="first-section">
+                <section className="first-section flex-v gap-24">
                     <h2>Introduction</h2>
 
                     <p>
@@ -44,10 +44,10 @@ export default function IntroPage() {
                 </section>
 
 
-                <section className="second-section">
+                <section className="second-section flex-v gap-24">
                     <h2>Advantages of Atomica UI</h2>
 
-                    <div className="cards">
+                    <div className="cards grid grid--5-cols gap-18">
                         <div className="card">
 
                             <div className="card-header">
