@@ -11,7 +11,7 @@ import AccordionPage from "./routes/accordion-page";
 import DropdownPage from "./routes/dropdown-page";
 import ModalPage from "./routes/modal-page";
 import TablePage from "./routes/table-page";
-import HeadingPage from "./routes/heading-page";
+import PaginationPage from "./routes/pagination-page";
 
 
 const router = createHashRouter([
@@ -45,12 +45,8 @@ const router = createHashRouter([
                 element: <TablePage/>
             },
             {
-                path: "/page-heading",
-                element: <HeadingPage/>
-            },
-            {
-                path: "/navigation",
-                element: <HeadingPage/>
+                path: "/pagination",
+                element: <PaginationPage/>
             }
         ]
     },

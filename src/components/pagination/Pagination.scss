@@ -1,0 +1,57 @@
+@import "../../styles/variables";
+
+.pagination {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+
+  .btn {
+    width: 48px;
+    height: 48px;
+    border: 1px solid $color--primary;
+    border-radius: 50%;
+    background-color: #ffffff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    .btn-icon {
+      width: 24px;
+      height: 24px;
+      stroke: $color--primary;
+    }
+
+    &:hover {
+      color: #fff;
+      background-color: $color--primary;
+
+      .btn-icon {
+        stroke: #fff;
+      }
+
+    }
+  }
+
+
+  .page-link {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    border: none;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .page-link--current {
+    background-color: $color--primary;
+    color: #fff;
+  }
+
+}
