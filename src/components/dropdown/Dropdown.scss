@@ -8,6 +8,7 @@
   width: 20rem;
 
   .label {
+    border-radius: $border-radius--btn;
     padding: 1rem 2rem;
     border: 2px solid $color--primary;
   }
@@ -17,6 +18,7 @@
   }
 
   .item {
+    border-radius: $border-radius--btn;
     width: 100%;
     padding: 2rem 6rem;
     border-bottom: 1px solid $color-grey--light;
