@@ -1,4 +1,4 @@
-# Atomica UI [WIP]
+# Atomica UI
 
 
 ## Overview
