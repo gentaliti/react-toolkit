@@ -1,0 +1,70 @@
+@import "../../styles/variables";
+
+.accordion {
+  width: 70rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+
+  .item {
+    box-shadow: 0 0 32px rgba(0, 0, 0, 0.1);
+    padding: 1.2rem 2.4rem;
+
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    gap: 3.2rem;
+    align-items: center;
+    cursor: pointer;
+
+    .number, .text {
+      font-size: 2rem;
+      font-weight: 500;
+    }
+
+    .number {
+      color: #ced4da;
+    }
+
+    .icon {
+      width: 24px;
+      height: 24px;
+      stroke: $color--primary;
+    }
+
+    .hidden-box {
+      grid-column: 2;
+      display: none;
+    }
+
+    .hidden-box p {
+      line-height: 1.6;
+      margin-bottom: 24px;
+    }
+
+    .hidden-box ul {
+      color: #868e96;
+      margin-left: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+  }
+
+  .open {
+    border-top: 4px solid $color--primary;
+  }
+
+  .open .number, .open .text {
+    color: $color--primary;
+  }
+
+  .open .hidden-box {
+    display: block;
+  }
+
+}
+
+
+
