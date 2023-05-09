@@ -11,7 +11,7 @@
 }
 
 .sidebar {
-  background-color: $primary-color;
+  background-color: $color--primary;
   box-shadow: 0 0 32px rgba(0, 0, 0, 0.25);
 
   height: 100vh;
@@ -55,7 +55,6 @@
     outline: inherit;
 
     :hover {
-      background-color: $primary-color--dark;
       transition: all .5s;
 
       svg {
@@ -64,7 +63,7 @@
     }
 
     svg {
-      color: $light-grey-color;
+      color: $color-grey--light;
       width: 2.2rem;
       height: 2.2rem;
     }
@@ -74,7 +73,7 @@
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    color: $darker-grey-color;
+    color: $color-grey--medium;
     list-style: none;
 
     margin-top: 20px;
@@ -91,7 +90,7 @@
         &:hover,
         &:active,
         &.active {
-          background-color: $darker-grey-secondary-color;
+          background-color: $color-grey--dark;
         }
 
         svg {
@@ -106,7 +105,7 @@
   .navigation-page-list li a:active,
   .navigation-page-list li a:link {
     text-decoration: none;
-    color: $darker-grey-color;
+    color: $color-grey--medium;
     font-size: 1.4rem;
   }
 
@@ -117,7 +116,7 @@
     gap: 0.3rem;
 
     h3 {
-      color: $heading-nav-color;
+      color: $color--secondary;
       font-size: 1.6rem;
       font-weight: 500;
       letter-spacing: 0.2px;
@@ -125,7 +124,7 @@
     }
 
     span {
-      color: $darker-grey-color;
+      color: $color-grey--medium;
       font-size: 1.2rem;
       font-weight: 500;
       letter-spacing: 0.2px;
